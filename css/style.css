@@ -4,22 +4,39 @@
     margin: 0%;
     padding: 0%;
 }
-.regional {
-    display: flex;    
-    width: 80px;
-    
-}
-.rectangule {
+
+/* Encabezado de ofertas y lenguaje*/
+.rectangulo {
     display: flex;
+    position: absolute;
     width: 1024px;
     height: 20px;
-    justify-content: space-between;
-    background-color:  #222222;
-    color: white;
-    align-items: center;
-    
-    
+    top: 0px;
+    background: #222222;
 }
+.rectangulo p{
+    position: absolute; left: 90px;top: 4px;
+    width: 138px;
+    height: 12px;
+    font-style: normal;font-weight: normal;font-size: 10px;line-height: 12px;
+    color: #F3F3F3;
+}
+.idioma {
+    display: flex;
+    position: absolute; top: 4px; right: 50px;
+    font-style: normal; font-weight: normal; font-size: 10px; line-height: 12px;
+    color: #F3F3F3;
+}
+.idioma div{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.idioma div img{
+    padding-left: 2.5px;
+}
+
+/*Encabezado de presentacion*/
 .nav {
     background-color: #F0A83E;
     width: 1024px;
